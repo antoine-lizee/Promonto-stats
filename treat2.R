@@ -3,8 +3,6 @@
 #
 # Copyright Antoine Lizee @ UCSF the 08/12/2014 antoine.lizee@ucsf.com
 
-source(./analysis_functions.R)
-
 #####  Demographic Analysis  ----------------
 summary(pop$N.DOSSIER == atcd$N.DOSSIER)
 
